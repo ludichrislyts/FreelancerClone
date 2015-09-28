@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:100%;
+}
+
+/*Navigation bar*/
+.navbar {
+  min-height:50px;
+  /*border:solid 1px #dee6f2;*/
+  background-color:white;
+}
+
+.nav-title {
+  width:50%;
+  float:left;
+  font-style:italic;
+  margin:1px 0px 10px 0px;
+}
+
+.nav-links {
+  width:40%;
+  float:right;
+  padding:10px 5px 10px 0px;
+  font-size:120%;
+  font-weight:bold;
+  text-align:right;
+}
+
+.nav-text {
+  text-decoration:none;
+  color:black;
+  padding:0px 4px;
+}
+.main_image-pos{
+  width:100%;
+  overflow:hidden;
+  float:left;
+  background-position:-500px;
+}
+
+/*Wrappers*/
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.color-box {
+  border:solid 1px #C5CDD8;
+  background-color:#dee6f2;
+}
+
+.center-me {
+  text-align:center;
+}
+
+/*Forms*/
+.frm-label {
+  font-weight:bold;
+  float:left;
+  margin-left:3px;
+}
+
+.sqr-field {
+  height:110%
+  border:solid 1px #C5CDD8;
+  margin:0px 0px 2px 2px;
+}
+
+.sqr-button {
+  border:solid #42647F 1px;
+  background-color:#42647F;
+  color:white;
+  padding:4px 6px 4px 6px;
+}
+
+/*Grids*/
+.column-box {
+  padding:10px;
+}
+
+.row {
+  width:100%;
+}
+
+.column-75 {
+  position:relative;
+  width:75%;
+  float:left;
+}
+
+.column-66 {
+  position:relative;
+  width:66.6666%;
+  float:left;
+}
+
+.column-50 {
+  position:relative;
+  width:50%;
+  float:left;
+}
+
+.column-33 {
+  position:relative;
+  width:33.3333%;
+  float:left;
+}
+
+.column-25 {
+  position:relative;
+  width:25%;
+  float:left;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="freelancerClone">
+  <head>
+    <meta charset="UTF-8">
+    <title>Course Roster</title>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/WorkersController.js"></script>
+    <script src="controllers/EmployersControllers.js"></script>
+    <!-- // <script src="controllers/.js"></script> -->
+    <script src="services/WorkersFactory.js"></script>
+    <!-- // <script src="services/.js"></script> -->
+    <script src="jquery-1.11.3.js">
+
+    </script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div ui-view="header"></div>
+    <!-- <div class="container"> -->
+      <div ui-view="body"></div>
+    <!-- </div> -->
+    <div ui-view="footer"></div>
+  </body>
+</html>
