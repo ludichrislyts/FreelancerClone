@@ -32,10 +32,10 @@ body {
   padding:0px 4px;
 }
 .main_image-pos{
-  width:100%;
+  max-width:100%;
   overflow:hidden;
   float:left;
-  background-position:-500px;
+  /*z-index:-1;*/
 }
 
 /*Wrappers*/
@@ -76,6 +76,46 @@ body {
 }
 
 /*Grids*/
+.featured-list{
+  display: inline;
+  /*float: left;*/
+  margin-top:50px;
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-left:20px;
+  align-content: center;
+}
+.steps-list{
+  display: inline;
+  float: left;
+  margin-top:10px;
+  margin-right:20px;
+  margin-bottom:10px;
+  margin-left:20px;
+  align-content: center;
+}
+.stat-row{
+  margin-top:10px;
+  text-align: center;
+}
+
+.stat-col-1{
+  border-top:solid lightgray 1px;
+  border-right:solid lightgray 1px;
+  border-bottom:solid lightgray 1px;
+}
+
+.stat-col-2{
+  border-top:solid lightgray 1px;
+  border-right:solid lightgray 1px;
+  border-bottom:solid lightgray 1px;
+}
+
+.stat-col-3{
+  border-top:solid lightgray 1px;
+  border-bottom:solid lightgray 1px;
+}
+
 .column-box {
   padding:10px;
 }
