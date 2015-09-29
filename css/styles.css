@@ -85,6 +85,9 @@ body {
   margin-left:20px;
   align-content: center;
 }
+.hire-neg-margin{
+  margin-bottom: -400px;
+}
 .steps-list{
   display: inline;
   float: left;
@@ -95,9 +98,10 @@ body {
   align-content: center;
 }
 .stat-row{
-  margin-top:610px;
+  margin-top:410px;
   text-align: center;
 }
+
 
 .stat-col-1{
   border-top:solid lightgray 1px;
