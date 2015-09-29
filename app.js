@@ -15,7 +15,7 @@ freelancerClone.config(function($stateProvider, $urlRouterProvider){
       },
       'body':{
         templateUrl:'partials/home.html',
-        controller: 'ImagesCtrl',
+        controller: 'HeroCtrl',
       },
       // 'home.home-splash':{
       //   templateUrl: 'partials/hero.html',
@@ -39,7 +39,7 @@ freelancerClone.config(function($stateProvider, $urlRouterProvider){
       },
       'body':{
         templateUrl:'partials/home.html',
-        controller: 'ImagesCtrl',
+        controller: 'HeroCtrl',
       },
       // 'home.home-splash':{
       //   templateUrl: 'partials/hero.html',
