@@ -250,3 +250,21 @@ code {
 .fifth-image.show {
   opacity: 1;
 }
+/* angular page fade ins and outs */
+
+.splash.ng-enter{
+  animation: slideInRight .5s both ease-in;
+  z-index: 9999;
+}
+.splash.ng-leave{
+  animation: slideOutLeft .5s both ease-in;
+  z-index: 8888;
+}
+.second-splash.ng-leave{
+  animation: slideOutDown .5s both ease-in;
+  z-index: 8888;
+}
+.second-splash.ng-enter{
+  animation: slideInDown .5s both ease-in;
+  z-index: 9999;
+}

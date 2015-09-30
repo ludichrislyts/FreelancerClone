@@ -1,4 +1,4 @@
-var freelancerClone = angular.module('freelancerClone', ['ui.router']);
+var freelancerClone = angular.module('freelancerClone', ['ui.router', 'ngAnimate']);
 
 freelancerClone.config(function($stateProvider, $urlRouterProvider){
 
@@ -35,7 +35,7 @@ freelancerClone.config(function($stateProvider, $urlRouterProvider){
       },
       'upper-body':{
         templateUrl:'partials/hire.html',
-        controller: 'ImagesCtrl',
+        controller: 'HeroCtrl',
       },
       'body':{
         templateUrl:'partials/home.html',
